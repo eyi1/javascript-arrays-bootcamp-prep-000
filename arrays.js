@@ -3,7 +3,7 @@ chocolateBars
 
 var array = [1]
 function addElementToBeginningOfArray(array, element){
-return array.unshift('foo')
+return array.unshift()
 
 }
 
