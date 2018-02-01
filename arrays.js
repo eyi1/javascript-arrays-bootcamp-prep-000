@@ -4,6 +4,7 @@ chocolateBars
 var array = [1]
 
 function addElementToBeginningOfArray(array, element){
-var newArrat = [element, array[0] ]
+var newArray = [element, array[0] ]
+return newArray
 }
 addElementToBeginningOfArray
