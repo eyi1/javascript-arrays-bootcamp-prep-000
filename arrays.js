@@ -8,3 +8,8 @@ return array.unshift()
 }
 
 array([1],'foo')
+
+function addElementToBeginningOfArray(array, element){
+  return array.slice(0,array.length-1)
+}
+array([1],'foo')
