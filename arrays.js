@@ -9,7 +9,7 @@ return array.unshift()
 
 array([1],'foo')
 
-function addElementToBeginningOfArray(array, element){
-  return array.slice(0,array.length-1)
+function addElementToBeginningOfArray(array, 'foo'){
+  return array.unshift()
 }
-array([1],'foo')
+array([1])
